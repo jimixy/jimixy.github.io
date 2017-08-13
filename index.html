@@ -158,6 +158,100 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Linunx命令-day01" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/08/13/Linunx命令-day01/">Linunx命令-day01</a>
+    </h1>
+  
+
+        <a href="/2017/08/13/Linunx命令-day01/" class="archive-article-date">
+  	<time datetime="2017-08-13T07:03:44.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-13</time>
+</a>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>在ubuntu系统中没有文件后缀一说 ;只有根目录，没有c盘,d盘之说.</p>
+</blockquote>
+<h3 id="ls"><a href="#ls" class="headerlink" title="~$ ls"></a>~$ ls</h3><p>显示当前目录里面的文件夹以及文件（不包括隐藏文件）</p>
+<h3 id="ls-gt-xxx-txt"><a href="#ls-gt-xxx-txt" class="headerlink" title="~$ ls &gt; xxx.txt"></a>~$ ls &gt; xxx.txt</h3><p>新建xxx.txt文件，并将ls命名中显示的东西保存到文件中</p>
+<h3 id="ls-gt-gt-xxx-txt"><a href="#ls-gt-gt-xxx-txt" class="headerlink" title="~$ ls &gt;&gt; xxx.txt"></a>~$ ls &gt;&gt; xxx.txt</h3><p>如果有xxx.txt文件，则不创建，否则创建xxx.txt文件;并将ls命名中显示的东西追加到xxx.txt文件中;</p>
+<h3 id="ls-l"><a href="#ls-l" class="headerlink" title="~$ ls -l"></a>~$ ls -l</h3><p>一列一列的显示当前目录里面的文件夹以及文件（不包括隐藏文件）</p>
+<h3 id="ls-l-h"><a href="#ls-l-h" class="headerlink" title="~$ ls -l -h"></a>~$ ls -l -h</h3><p>一列一列的显示当前目录里面的文件夹以及文件（不包括隐藏文件） 有文件大小</p>
+<h3 id="ls-a"><a href="#ls-a" class="headerlink" title="~$ ls -a"></a>~$ ls -a</h3><p>显示当前目录里面的所有文件夹以及文件（包括隐藏文件）</p>
+<h3 id="ls-alh"><a href="#ls-alh" class="headerlink" title="~$ ls -alh"></a>~$ ls -alh</h3><p>上三个显示结果的合集</p>
+<h3 id="ls-1"><a href="#ls-1" class="headerlink" title="~$ ls /"></a>~$ ls /</h3><p>显示根目录所有文件及文件夹</p>
+<h3 id="ls-2"><a href="#ls-2" class="headerlink" title="~$ ls 2*"></a>~$ ls 2*</h3><p>显示以2开头的所有文件及文件夹</p>
+<h3 id="ls-2-1"><a href="#ls-2-1" class="headerlink" title="~$ ls 2??"></a>~$ ls 2??</h3><p>显示以2开头的文件名为三位数所有文件及文件夹</p>
+<h3 id="ls-1-1234-8-txt"><a href="#ls-1-1234-8-txt" class="headerlink" title="~$ ls 1[1234]8.txt"></a>~$ ls 1[1234]8.txt</h3><p>显示以中间为1234所有文件及文件夹</p>
+<h3 id="ls-–help"><a href="#ls-–help" class="headerlink" title="~$ ls –help"></a>~$ ls –help</h3><p>显示帮助文档</p>
+<h3 id="man-ls"><a href="#man-ls" class="headerlink" title="~$ man ls"></a>~$ man ls</h3><p>显示手册  q 退出</p>
+<h3 id="man-2-open"><a href="#man-2-open" class="headerlink" title="~$ man 2 open"></a>~$ man 2 open</h3><p>显示手册 可以是1-8</p>
+<h3 id="pwd"><a href="#pwd" class="headerlink" title="~$ pwd"></a>~$ pwd</h3><p>当前目录的路径</p>
+<h3 id="cd-Desktop"><a href="#cd-Desktop" class="headerlink" title="~$ cd Desktop"></a>~$ cd Desktop</h3><p>进入Desktop文件夹</p>
+<h3 id="touch-1-txt"><a href="#touch-1-txt" class="headerlink" title="~$ touch 1.txt"></a>~$ touch 1.txt</h3><p>创建1.txt文件</p>
+<h3 id="touch-333-txt"><a href="#touch-333-txt" class="headerlink" title="~$ touch .333.txt"></a>~$ touch .333.txt</h3><p>创建隐藏文件，在ls命令下不显示，在ls -a命令下才显示.</p>
+<h3 id="gedit-1-txt"><a href="#gedit-1-txt" class="headerlink" title="~$ gedit 1.txt"></a>~$ gedit 1.txt</h3><p>编辑1.txt文件，文件名很长时tab键自动补全</p>
+<h3 id="cat-1-txt"><a href="#cat-1-txt" class="headerlink" title="~$ cat 1.txt"></a>~$ cat 1.txt</h3><p>查看1.txt文件(一次全部显示所有内容)</p>
+<h3 id="more-1-txt"><a href="#more-1-txt" class="headerlink" title="~$ more 1.txt"></a>~$ more 1.txt</h3><p>查看1.txt文件(一次显示一部分内容，用于内容很多的场合) q 退出</p>
+<h3 id="mkdir-文件夹1"><a href="#mkdir-文件夹1" class="headerlink" title="~$ mkdir 文件夹1"></a>~$ mkdir 文件夹1</h3><p>创建文件夹1</p>
+<h3 id="clear"><a href="#clear" class="headerlink" title="~$ clear"></a>~$ clear</h3><p>清屏</p>
+<h3 id="history"><a href="#history" class="headerlink" title="~$ history"></a>~$ history</h3><p>历史命令</p>
+<h3 id="830"><a href="#830" class="headerlink" title="~$ !830"></a>~$ !830</h3><p>执行历史命令中第830号的命令</p>
+<h3 id="rm-1-txt"><a href="#rm-1-txt" class="headerlink" title="~$ rm 1.txt"></a>~$ rm 1.txt</h3><p>删除1.txt文件或文件夹</p>
+<h3 id="ls-alh-bin-more"><a href="#ls-alh-bin-more" class="headerlink" title="~$ ls -alh /bin | more"></a>~$ ls -alh /bin | more</h3><p>查看根目录下bin文件夹中的文件，以一次显示一部分，分行显示，显示文件大小；按f查看更多</p>
+<h3 id="ls-ls-alh"><a href="#ls-ls-alh" class="headerlink" title="~$ ls;ls -alh"></a>~$ ls;ls -alh</h3><p>同时执行两个命名</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list">
+			 
+        <li class="article-tag-list-item">
+        	<a href="javascript:void(0)" class="article-tag-list-link color2">python</a>
+        </li>
+       
+        <li class="article-tag-list-item">
+        	<a href="javascript:void(0)" class="article-tag-list-link color2">Linunx</a>
+        </li>
+      
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/08/13/Linunx命令-day01/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
     <article id="post-其他-markeDown语法总结-1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -420,6 +514,14 @@
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="color2">python</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="color2">Linunx</a>
+              </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="color1">daily</a>
