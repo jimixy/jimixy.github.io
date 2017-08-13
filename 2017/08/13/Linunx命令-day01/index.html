@@ -8,17 +8,17 @@
   <link rel="dns-prefetch" href="https://github.com/jimixy/jimixy.github.io">
   <title>Linunx命令-day01 | jimi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="在ubuntu系统中没有文件后缀一说 ;只有根目录，没有c盘,d盘之说.  ~$ ls显示当前目录里面的文件夹以及文件（不包括隐藏文件） ~$ ls &amp;gt; xxx.txt新建xxx.txt文件，并将ls命名中显示的东西保存到文件中 ~$ ls &amp;gt;&amp;gt; xxx.txt如果有xxx.txt文件，则不创建，否则创建xxx.txt文件;并将ls命名中显示的东西追加到xxx.txt文件中;">
+  <meta name="description" content="##Linunx命令第一天">
 <meta name="keywords" content="python,Linunx">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linunx命令-day01">
 <meta property="og:url" content="https://github.com/jimixy/jimixy.github.io/2017/08/13/Linunx命令-day01/index.html">
 <meta property="og:site_name" content="jimi">
-<meta property="og:description" content="在ubuntu系统中没有文件后缀一说 ;只有根目录，没有c盘,d盘之说.  ~$ ls显示当前目录里面的文件夹以及文件（不包括隐藏文件） ~$ ls &amp;gt; xxx.txt新建xxx.txt文件，并将ls命名中显示的东西保存到文件中 ~$ ls &amp;gt;&amp;gt; xxx.txt如果有xxx.txt文件，则不创建，否则创建xxx.txt文件;并将ls命名中显示的东西追加到xxx.txt文件中;">
-<meta property="og:updated_time" content="2017-08-13T09:01:44.626Z">
+<meta property="og:description" content="##Linunx命令第一天">
+<meta property="og:updated_time" content="2017-08-13T14:09:30.798Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linunx命令-day01">
-<meta name="twitter:description" content="在ubuntu系统中没有文件后缀一说 ;只有根目录，没有c盘,d盘之说.  ~$ ls显示当前目录里面的文件夹以及文件（不包括隐藏文件） ~$ ls &amp;gt; xxx.txt新建xxx.txt文件，并将ls命名中显示的东西保存到文件中 ~$ ls &amp;gt;&amp;gt; xxx.txt如果有xxx.txt文件，则不创建，否则创建xxx.txt文件;并将ls命名中显示的东西追加到xxx.txt文件中;">
+<meta name="twitter:description" content="##Linunx命令第一天">
   
     <link rel="alternative" href="/atom.xml" title="jimi" type="application/atom+xml">
   
@@ -176,37 +176,107 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <blockquote>
+        <p>##Linunx命令第一天</p>
+<a id="more"></a>
+<blockquote>
 <p>在ubuntu系统中没有文件后缀一说 ;只有根目录，没有c盘,d盘之说.</p>
 </blockquote>
-<h3 id="ls"><a href="#ls" class="headerlink" title="~$ ls"></a>~$ ls</h3><p>显示当前目录里面的文件夹以及文件（不包括隐藏文件）</p>
-<h3 id="ls-gt-xxx-txt"><a href="#ls-gt-xxx-txt" class="headerlink" title="~$ ls &gt; xxx.txt"></a>~$ ls &gt; xxx.txt</h3><p>新建xxx.txt文件，并将ls命名中显示的东西保存到文件中</p>
-<h3 id="ls-gt-gt-xxx-txt"><a href="#ls-gt-gt-xxx-txt" class="headerlink" title="~$ ls &gt;&gt; xxx.txt"></a>~$ ls &gt;&gt; xxx.txt</h3><p>如果有xxx.txt文件，则不创建，否则创建xxx.txt文件;并将ls命名中显示的东西追加到xxx.txt文件中;</p>
-<h3 id="ls-l"><a href="#ls-l" class="headerlink" title="~$ ls -l"></a>~$ ls -l</h3><p>一列一列的显示当前目录里面的文件夹以及文件（不包括隐藏文件）</p>
-<h3 id="ls-l-h"><a href="#ls-l-h" class="headerlink" title="~$ ls -l -h"></a>~$ ls -l -h</h3><p>一列一列的显示当前目录里面的文件夹以及文件（不包括隐藏文件） 有文件大小</p>
-<h3 id="ls-a"><a href="#ls-a" class="headerlink" title="~$ ls -a"></a>~$ ls -a</h3><p>显示当前目录里面的所有文件夹以及文件（包括隐藏文件）</p>
-<h3 id="ls-alh"><a href="#ls-alh" class="headerlink" title="~$ ls -alh"></a>~$ ls -alh</h3><p>上三个显示结果的合集</p>
-<h3 id="ls-1"><a href="#ls-1" class="headerlink" title="~$ ls /"></a>~$ ls /</h3><p>显示根目录所有文件及文件夹</p>
-<h3 id="ls-2"><a href="#ls-2" class="headerlink" title="~$ ls 2*"></a>~$ ls 2*</h3><p>显示以2开头的所有文件及文件夹</p>
-<h3 id="ls-2-1"><a href="#ls-2-1" class="headerlink" title="~$ ls 2??"></a>~$ ls 2??</h3><p>显示以2开头的文件名为三位数所有文件及文件夹</p>
-<h3 id="ls-1-1234-8-txt"><a href="#ls-1-1234-8-txt" class="headerlink" title="~$ ls 1[1234]8.txt"></a>~$ ls 1[1234]8.txt</h3><p>显示以中间为1234所有文件及文件夹</p>
-<h3 id="ls-–help"><a href="#ls-–help" class="headerlink" title="~$ ls –help"></a>~$ ls –help</h3><p>显示帮助文档</p>
-<h3 id="man-ls"><a href="#man-ls" class="headerlink" title="~$ man ls"></a>~$ man ls</h3><p>显示手册  q 退出</p>
-<h3 id="man-2-open"><a href="#man-2-open" class="headerlink" title="~$ man 2 open"></a>~$ man 2 open</h3><p>显示手册 可以是1-8</p>
-<h3 id="pwd"><a href="#pwd" class="headerlink" title="~$ pwd"></a>~$ pwd</h3><p>当前目录的路径</p>
-<h3 id="cd-Desktop"><a href="#cd-Desktop" class="headerlink" title="~$ cd Desktop"></a>~$ cd Desktop</h3><p>进入Desktop文件夹</p>
-<h3 id="touch-1-txt"><a href="#touch-1-txt" class="headerlink" title="~$ touch 1.txt"></a>~$ touch 1.txt</h3><p>创建1.txt文件</p>
-<h3 id="touch-333-txt"><a href="#touch-333-txt" class="headerlink" title="~$ touch .333.txt"></a>~$ touch .333.txt</h3><p>创建隐藏文件，在ls命令下不显示，在ls -a命令下才显示.</p>
-<h3 id="gedit-1-txt"><a href="#gedit-1-txt" class="headerlink" title="~$ gedit 1.txt"></a>~$ gedit 1.txt</h3><p>编辑1.txt文件，文件名很长时tab键自动补全</p>
-<h3 id="cat-1-txt"><a href="#cat-1-txt" class="headerlink" title="~$ cat 1.txt"></a>~$ cat 1.txt</h3><p>查看1.txt文件(一次全部显示所有内容)</p>
-<h3 id="more-1-txt"><a href="#more-1-txt" class="headerlink" title="~$ more 1.txt"></a>~$ more 1.txt</h3><p>查看1.txt文件(一次显示一部分内容，用于内容很多的场合) q 退出</p>
-<h3 id="mkdir-文件夹1"><a href="#mkdir-文件夹1" class="headerlink" title="~$ mkdir 文件夹1"></a>~$ mkdir 文件夹1</h3><p>创建文件夹1</p>
-<h3 id="clear"><a href="#clear" class="headerlink" title="~$ clear"></a>~$ clear</h3><p>清屏</p>
-<h3 id="history"><a href="#history" class="headerlink" title="~$ history"></a>~$ history</h3><p>历史命令</p>
-<h3 id="830"><a href="#830" class="headerlink" title="~$ !830"></a>~$ !830</h3><p>执行历史命令中第830号的命令</p>
-<h3 id="rm-1-txt"><a href="#rm-1-txt" class="headerlink" title="~$ rm 1.txt"></a>~$ rm 1.txt</h3><p>删除1.txt文件或文件夹</p>
-<h3 id="ls-alh-bin-more"><a href="#ls-alh-bin-more" class="headerlink" title="~$ ls -alh /bin | more"></a>~$ ls -alh /bin | more</h3><p>查看根目录下bin文件夹中的文件，以一次显示一部分，分行显示，显示文件大小；按f查看更多</p>
-<h3 id="ls-ls-alh"><a href="#ls-ls-alh" class="headerlink" title="~$ ls;ls -alh"></a>~$ ls;ls -alh</h3><p>同时执行两个命名</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls</div></pre></td></tr></table></figure>
+<p>显示当前目录里面的文件夹以及文件（不包括隐藏文件）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls &gt; xxx.txt</div></pre></td></tr></table></figure>
+<p>新建xxx.txt文件，并将ls命名中显示的东西保存到文件中</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls &gt;&gt; xxx.txt</div></pre></td></tr></table></figure>
+<p>如果有xxx.txt文件，则不创建，否则创建xxx.txt文件;并将ls命名中显示的东西追加到xxx.txt文件中;</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls <span class="_">-l</span></div></pre></td></tr></table></figure>
+<p>一列一列的显示当前目录里面的文件夹以及文件（不包括隐藏文件）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls <span class="_">-l</span> -h</div></pre></td></tr></table></figure>
+<p>一列一列的显示当前目录里面的文件夹以及文件（不包括隐藏文件） 有文件大小</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls <span class="_">-a</span></div></pre></td></tr></table></figure>
+<p>显示当前目录里面的所有文件夹以及文件（包括隐藏文件）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls -alh</div></pre></td></tr></table></figure>
+<p>上三个显示结果的合集</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls /</div></pre></td></tr></table></figure>
+<p>显示根目录所有文件及文件夹</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls 2*</div></pre></td></tr></table></figure>
+<p>显示以2开头的所有文件及文件夹</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls 2??</div></pre></td></tr></table></figure>
+<p>显示以2开头的文件名为三位数所有文件及文件夹</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls 1[1234]8.txt</div></pre></td></tr></table></figure>
+<p>显示以中间为1234所有文件及文件夹</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls --help</div></pre></td></tr></table></figure>
+<p>显示帮助文档</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ man ls</div></pre></td></tr></table></figure>
+<p>显示手册  q 退出</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ man 2 open</div></pre></td></tr></table></figure>
+<p>显示手册 可以是1-8</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ <span class="built_in">pwd</span></div></pre></td></tr></table></figure>
+<p>当前目录的路径</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ <span class="built_in">cd</span> Desktop</div></pre></td></tr></table></figure>
+<p>进入Desktop文件夹</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ <span class="built_in">cd</span> ../</div></pre></td></tr></table></figure>
+<p>返回上一层文件夹</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ <span class="built_in">cd</span> -</div></pre></td></tr></table></figure>
+<p>返回上一次层级的跳动  ctrl+c取消当前命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ <span class="built_in">cd</span> ~</div></pre></td></tr></table></figure>
+<p>跳到家目录</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ tree</div></pre></td></tr></table></figure>
+<p>目录树</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ touch 1.txt</div></pre></td></tr></table></figure>
+<p>创建1.txt文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ touch .333.txt</div></pre></td></tr></table></figure>
+<p>创建隐藏文件，在ls命令下不显示，在ls -a命令下才显示.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ gedit 1.txt</div></pre></td></tr></table></figure>
+<p>编辑1.txt文件，文件名很长时tab键自动补全</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ cat 1.txt</div></pre></td></tr></table></figure>
+<p>查看1.txt文件(一次全部显示所有内容)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ more 1.txt</div></pre></td></tr></table></figure>
+<p>查看1.txt文件(一次显示一部分内容，用于内容很多的场合) q 退出</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ vi 1.txt</div></pre></td></tr></table></figure>
+<p>编辑1.txt文件(一次全部显示所有内容)  ZZ退出编辑状态</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ mkdir 文件夹1</div></pre></td></tr></table></figure>
+<p>创建文件夹1</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ mkdir A/B/C/D/E -p</div></pre></td></tr></table></figure>
+<p>在A文件夹下面B文件夹里面创建E文件夹,如果中间没有B、C、D文件夹的话，会自动创建</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ clear</div></pre></td></tr></table></figure>
+<p>清屏</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ <span class="built_in">history</span></div></pre></td></tr></table></figure>
+<p>历史命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ !830</div></pre></td></tr></table></figure>
+<p>执行历史命令中第830号的命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ rm 1.txt</div></pre></td></tr></table></figure>
+<p>删除1.txt文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ rm B -r</div></pre></td></tr></table></figure>
+<p>删除B文件夹(文件夹下面的所有东西都被删除)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ rmdir txt</div></pre></td></tr></table></figure>
+<p>删除非空文件夹，必须离开该目录</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls -alh /bin | more</div></pre></td></tr></table></figure>
+<p>查看根目录下bin文件夹中的文件，以一次显示一部分，分行显示，显示文件大小；按f查看更多</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ls;ls -alh</div></pre></td></tr></table></figure>
+<p>同时执行两个命名 </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ mv 1.text 1.txt</div></pre></td></tr></table></figure>
+<p>重命名1.text文件名为1.txt</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mv 1.text laowang/</div></pre></td></tr></table></figure>
+<p>移动1.text文件到laowang文件夹里面</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ mv laowang/ xiaowang</div></pre></td></tr></table></figure>
+<p>重命名laowang文件夹 名为xiaowang</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ln <span class="_">-s</span> 1.txt 1.link-txt</div></pre></td></tr></table></figure>
+<p>软链接：创建1.txt文件的快捷方式1.link-txt</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ ln 1.txt 1.copy-txt</div></pre></td></tr></table></figure>
+<p>硬链接：复制1.txt文件，名字为1.copy-txt</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ cp 1.txt A</div></pre></td></tr></table></figure>
+<p>复制1.txt到A文件夹里面</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ cp A laowang/ -r</div></pre></td></tr></table></figure>
+<p>复制A文件夹到laowang文件夹里面</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ grep <span class="string">'nfc'</span> xxx.txt</div></pre></td></tr></table></figure>
+<p>在xxx.txt文件里面搜索’nfc’字段</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ grep <span class="string">'^nfc'</span> xxx.txt</div></pre></td></tr></table></figure>
+<p>在xxx.txt文件里面搜索以’nfc’字段开头的</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ grep <span class="string">'nfc$'</span> xxx.txt</div></pre></td></tr></table></figure>
+<p>在xxx.txt文件里面搜索以’nfc’字段结尾的</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ grep -n <span class="string">'nfc'</span> xxx.txt</div></pre></td></tr></table></figure>
+<p>在xxx.txt文件里面搜索’nfc’字段,显示出是在哪一行.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~$ grep -v <span class="string">'nfc'</span> xxx.txt</div></pre></td></tr></table></figure>
+<p>在xxx.txt文件里面搜索不包含’nfc’字段的.</p>
 
       
 
